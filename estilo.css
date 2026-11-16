@@ -1,0 +1,122 @@
+/* TP: Manuela Pedraza - La Tucumanesa */
+/* CSS aparte - Versión ROSITA */
+
+#header-principal{
+  background-image: linear-gradient(rgba(255,105,180,0.5), rgba(233,30,99,0.6)), url('manuela_ia2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 8px #880e4f;
+  border-bottom: 5px solid #f8bbd0;
+}
+
+#navegacion-principal{
+  background-color: #e91e63 !important;
+  padding: 12px;
+  border-bottom: 4px solid #f48fb1;
+}
+
+#footer-principal{
+  background-color: #880e4f;
+  color: #fce4ec;
+  padding: 30px;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 4px solid #f48fb1;
+}
+
+.titulo-principal{
+  font-family: 'Times New Roman', serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+  color: #fff0f5;
+}
+
+.titulo-seccion{
+  color: #c2185b;
+  border-left: 6px solid #f48fb1;
+  padding-left: 15px;
+  margin: 25px 0;
+  font-weight: bold;
+  background: #fce4ec;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0 10px 10px 0;
+}
+
+.card-procer{
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid #f48fb1;
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(233,30,99,0.2);
+  background: #fff0f5;
+}
+
+.texto-enfasis{
+  font-weight: bold;
+  color: #880e4f;
+  background: #f8bbd0;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.caja-info{
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0;
+  border: 2px dashed #e91e63;
+}
+
+.contenedor-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARRUSEL */
+#carruselManuela img{
+  height: 420px;
+  object-fit: cover;
+}
+#carruselManuela .carousel-caption{
+  background: rgba(136,14,79,0.65);
+  border-radius: 15px;
+  padding: 15px;
+}
+#carruselManuela .carousel-caption h5{
+  color: white;
+  font-weight: bold;
+}
+#carruselManuela .carousel-caption p{
+  color: white;
+  margin: 0;
+}
+
+@media (max-width: 576px){
+  #carruselManuela img{ height: 260px; }
+  .titulo-principal{ font-size: 2rem; }
+  #header-principal{ height: 250px; }
+}
+
+/* Botones rositas */
+.btn-primary{
+  background-color: #e91e63 !important;
+  border-color: #e91e63 !important;
+}
+.btn-warning{
+  background-color: #f48fb1 !important;
+  border-color: #f48fb1 !important;
+  color: #880e4f !important;
+  font-weight: bold;
+}
+.btn-secondary{
+  background-color: #ad1457 !important;
+  border-color: #ad1457 !important;
+}

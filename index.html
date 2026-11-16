@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manuela Pedraza - La Tucumanesa</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header id="header-principal"><h1 class="titulo-principal">Manuela Pedraza - La Tucumanesa</h1></header>
+<nav id="navegacion-principal" class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">🇦🇷 1806</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="menu">
+<div class="navbar-nav ms-auto">
+<a class="nav-link active" href="index.html">Inicio</a>
+<a class="nav-link" href="vida.html">Vida y Obra</a>
+<a class="nav-link" href="efemerides.html">Efemérides</a>
+<a class="nav-link" href="legado.html">Legado</a>
+</div>
+</div>
+</div>
+</nav>
+
+<div id="carruselManuela" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carruselManuela" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carruselManuela" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carruselManuela" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/manuela.jpg" class="d-block w-100" alt="Retrato heroico">
+      <div class="carousel-caption"><h5>La Tucumanesa</h5><p>Heroína de la Reconquista de 1806</p></div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/militar.jpg" class="d-block w-100" alt="Batalla 1806">
+      <div class="carousel-caption"><h5>Peleó como un hombre</h5><p>Tomó el fusil de su esposo y siguió combatiendo</p></div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/manuela-pedraza.jpg" class="d-block w-100" alt="Acta Cabildo">
+      <div class="carousel-caption"><h5>Nombrada Alférez</h5><p>Con sueldo de 30 pesos, única mujer en la lista oficial</p></div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carruselManuela" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carruselManuela" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+</div>
+
+<main class="container mt-4">
+<div class="alert alert-warning text-center" role="alert">
+  ⚠️ <strong>12 de agosto</strong> - Día de la Reconquista <span class="badge bg-danger">Efeméride</span>
+</div>
+<h1 class="titulo-seccion">La heroína de la Reconquista <span class="badge bg-primary">1806</span></h1>
+<p>Manuela Pedraza nació en Tucumán alrededor de 1780. Fue una mujer humilde que en 1806 peleó en la Reconquista de Buenos Aires contra los ingleses.</p>
+<p>Cuando su esposo cayó herido, ella tomó su fusil y siguió peleando. Por su valor, Santiago de Liniers la nombró <span class="texto-enfasis">Alférez con sueldo</span>, algo impensado para una mujer en 1806.</p>
+<p><strong>Valor y coraje:</strong></p>
+<div class="progress mb-3"><div class="progress-bar bg-danger" style="width: 100%">100%</div></div>
+<div class="caja-info">
+<h2 class="titulo-seccion">¿Por qué es importante?</h2>
+<p>Representa a las mujeres invisibles de la historia, las que pelearon, curaron heridos y defendieron su tierra sin aparecer en los libros.</p>
+<a href="vida.html" class="btn btn-primary">Conocer su vida</a>
+<a href="legado.html" class="btn btn-warning">Ver su legado</a>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" title="Manuela es símbolo del feminismo histórico argentino">¿Sabías qué?</button>
+</div>
+<h2 class="titulo-seccion">Secciones</h2>
+<div class="row">
+  <div class="col-md-4"><div class="card card-procer"><div class="card-body"><h5 class="card-title">📖 Vida y Obra</h5><p class="card-text">Su biografía, su pelea y sus personajes.</p><a href="vida.html" class="btn btn-primary">Entrar</a></div></div></div>
+  <div class="col-md-4"><div class="card card-procer"><div class="card-body"><h5 class="card-title">📅 Efemérides</h5><p class="card-text">Línea de tiempo de las Invasiones Inglesas.</p><a href="efemerides.html" class="btn btn-primary">Entrar</a></div></div></div>
+  <div class="col-md-4"><div class="card card-procer"><div class="card-body"><h5 class="card-title">💗 Legado</h5><p class="card-text">Por qué hoy la recordamos.</p><a href="legado.html" class="btn btn-primary">Entrar</a></div></div></div>
+</div>
+<h2 class="titulo-seccion">Datos rápidos</h2>
+<table class="table table-striped table-bordered" id="tabla-efemerides">
+<thead><tr><th>Dato</th><th>Info</th></tr></thead>
+<tbody>
+<tr><td>Nació</td><td>1780 - Tucumán</td></tr>
+<tr><td>Pelear</td><td>1806 - Reconquista</td></tr>
+<tr><td>Rango</td><td>Alférez con sueldo</td></tr>
+<tr><td>Murió</td><td>1807 - 27 años</td></tr>
+</tbody>
+</table>
+<div class="accordion" id="acordeonInicio">
+  <div class="accordion-item">
+    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1">¿Qué hizo Manuela?</button></h2>
+    <div id="a1" class="accordion-collapse collapse show"><div class="accordion-body">Peleó en la Reconquista, le quitó el fusil a un inglés y siguió combatiendo aunque su esposo estaba herido.</div></div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">¿Por qué la recordamos?</button></h2>
+    <div id="a2" class="accordion-collapse collapse"><div class="accordion-body">Porque fue la única mujer con rango militar en 1806 y símbolo de las mujeres que hicieron patria.</div></div>
+  </div>
+</div>
+</main>
+<footer id="footer-principal"><p>TP Manuela Pedraza - 2026</p>
+  <p>Agustina vega</p>
+  <p>agusvegaa2@gmail.com</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  const tooltipList = [...tooltipTriggerList].map(t => new bootstrap.Tooltip(t));
+</script>
+</body>
+</html>
